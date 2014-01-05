@@ -274,7 +274,7 @@ var ASN1HEX = new function() {
     };
 };
 
-/*
+/**
  * @since asn1hex 1.1.4
  */
 ASN1HEX.getVbyList = function(h, currentIndex, nthList, checkingTag) {

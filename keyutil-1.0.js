@@ -233,7 +233,7 @@ var KEYUTIL = function() {
 	return result;
     };
 
-    /*
+    /**
      * @param {String} privateKeyB64 base64 string of encrypted private key
      * @param {String} sharedKeyAlgName algorithm name of shared key encryption
      * @param {String} sharedKeyHex hexadecimal string of shared key to encrypt
@@ -248,7 +248,7 @@ var KEYUTIL = function() {
 	return decryptedKeyHex;
     };
     
-    /*
+    /**
      * @param {String} privateKeyHex hexadecimal string of private key
      * @param {String} sharedKeyAlgName algorithm name of shared key encryption
      * @param {String} sharedKeyHex hexadecimal string of shared key to encrypt
@@ -398,7 +398,7 @@ var KEYUTIL = function() {
 	    return rsaKey;
 	},
 
-	/*
+	/**
          * get PEM formatted encrypted PKCS#5 private key from hexadecimal string of plain private key
 	 * @name getEncryptedPKCS5PEMFromPrvKeyHex
 	 * @memberOf KEYUTIL

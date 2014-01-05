@@ -63,7 +63,7 @@ KJUR.crypto.Util = new function() {
 	'ripemd160': "3021300906052b2403020105000414"
     };
 
-    /*
+    /**
      * @since crypto 1.1.1
      */
     this.DEFAULTPROVIDER = {
@@ -111,7 +111,7 @@ KJUR.crypto.Util = new function() {
 	'RIPEMD160withRSAandMGF1':	'cryptojs/jsrsa'
     };
 
-    /*
+    /**
      * @since crypto 1.1.2
      */
     this.CRYPTOJSMESSAGEDIGESTNAME = {
@@ -277,7 +277,7 @@ KJUR.crypto.Util = new function() {
         return md.digestString(s);
     };
 
-    /*
+    /**
      * @since 1.1.2
      */
     this.getCryptoJSMDByName = function(s) {
