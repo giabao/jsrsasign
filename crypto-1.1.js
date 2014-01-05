@@ -60,7 +60,7 @@ KJUR.crypto.Util = new function() {
 	'sha512':    "3051300d060960864801650304020305000440",
 	'md2':       "3020300c06082a864886f70d020205000410",
 	'md5':       "3020300c06082a864886f70d020505000410",
-	'ripemd160': "3021300906052b2403020105000414",
+	'ripemd160': "3021300906052b2403020105000414"
     };
 
     /*
@@ -108,7 +108,7 @@ KJUR.crypto.Util = new function() {
 	'SHA256withRSAandMGF1':		'cryptojs/jsrsa',
 	'SHA384withRSAandMGF1':		'cryptojs/jsrsa',
 	'SHA512withRSAandMGF1':		'cryptojs/jsrsa',
-	'RIPEMD160withRSAandMGF1':	'cryptojs/jsrsa',
+	'RIPEMD160withRSAandMGF1':	'cryptojs/jsrsa'
     };
 
     /*
@@ -1131,6 +1131,6 @@ KJUR.crypto.OID = new function() {
 	'2b81040022': 'secp384r1',
 	'2a8648ce380403': 'SHA1withDSA', // 1.2.840.10040.4.3
 	'608648016503040301': 'SHA224withDSA', // 2.16.840.1.101.3.4.3.1
-	'608648016503040302': 'SHA256withDSA', // 2.16.840.1.101.3.4.3.2
+	'608648016503040302': 'SHA256withDSA' // 2.16.840.1.101.3.4.3.2
     };
 };

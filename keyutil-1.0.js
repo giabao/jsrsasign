@@ -1187,7 +1187,7 @@ var KEYUTIL = function() {
 	    pubKey.setPublic(hN, hE);
 	    
 	    return pubKey;
-	},
+	}
 
 	//addAlgorithm: function(functionObject, algName, keyLen, ivLen) {
 	//}
